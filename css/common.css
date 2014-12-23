@@ -9,3 +9,15 @@
 	color:#ECEEF1;
 	font-size:32px;
 }
+
+footer{
+	font-family: 'Montserrat', sans-serif;
+	color:#ECEEF1;
+	text-align:right;
+}
+
+a {
+	color:#ECEEF1;
+	text-decoration:none;
+	padding:10px;
+}
