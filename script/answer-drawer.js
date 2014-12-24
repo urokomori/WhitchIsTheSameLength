@@ -6,10 +6,18 @@ function switchAnswer(){
   	}
 
 	var toggle = document.getElementById('answer-toggle');
+	var label= document.getElementById("answer-label");
+	
 	if(toggle.checked){
 		drawAnswer(context);
+		label.innerHTML="HIDE ANSWER";
+		label.style.backgroundColor = '#ECEEF1';
+		label.style.color = '#363947';
    	}else{
 		clearAnswer(context);
+		label.innerHTML="ANSWER";
+		label.style.backgroundColor = '#363947';
+		label.style.color = '#ECEEF1';
    	}
 }
 
